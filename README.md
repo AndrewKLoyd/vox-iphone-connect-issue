@@ -10,3 +10,10 @@ Base imlementation for the voximplant web-sdk-V5 connect to the conference.
 
 - Expected: Both devices become connected to the same conference
 - Actually: Second device stays connected to the conference while the Iphone X reloaded the page(no error was in the console)
+
+
+> [!IMPORTANT]  
+> Add an .env file to the root of the project with credentials to connect user to the voximplant
+> VITE_VOX_USER_NAME=[user_login]
+> VITE_VOX_PASSWORD=[user password]
+> VITE_VOX_NODE=[you user node]
